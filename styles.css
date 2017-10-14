@@ -1,0 +1,124 @@
+
+
+.header {
+	color: #fff;
+	background-image: url(images/new-york.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.logo {
+	color: #fff;
+}
+.logo:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.red {
+	color: #e43a47;
+}
+.logo h1 {
+	margin: 0px;
+}
+.row2 {
+	margin: 60px 0;
+}
+.dating img {
+	border: 2px solid #fff;
+	width: 150px;
+	float: right;
+}
+@media (max-width: 767px){
+	.h1, h1 {
+		font-size: 28px;
+	}
+}
+@media (min-width: 768px){
+	.rltv {
+		position: relative;
+	}
+	.abs {
+		position: absolute;
+		right: 25px;
+		top: 80px;
+	}
+}
+
+.header .btn {
+	color: #fff;
+}
+.header .btn:hover {
+	color: #e43a47;
+}
+.profile {
+	display: inline-block;
+}
+.profile img {
+	width: 30px;
+}
+.pop-btn {
+	float: left;
+	margin-right: 100px;
+}
+.fol-set .follow {
+	color: #fff;
+	background: #e43a47;
+	border-radius: 17px;
+}
+.fol-set .follow:hover {
+	color: #262c3a;
+	background: #e43a47;
+}
+.fol-set .set {
+	border: 1px solid;
+	border-radius: 50%;
+}
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+	color: #e43a47;
+	background-color: transparent;
+	border-bottom: 2px solid;
+}
+.carousel-control.right,
+.carousel-control.left {
+	background-image: none;
+}
+.carousel-caption {
+	display: none;
+	top: 0px;
+	text-align: right;
+}
+.carousel img {
+	border-radius: 5px;
+}
+.carousel:hover .carousel-caption {
+	display: block;
+}
+.carousel-caption .btn {
+	color: #fff;
+	font-size: 16px;
+}
+.contenu span {
+	color: #ffcc3a;
+}
+.contenu h4 {
+	margin-top: 20px;
+}
+.contenu p {
+	margin-bottom: 20px;
+}
+.footer {
+	background: #273042;
+	padding: 40px;
+}
